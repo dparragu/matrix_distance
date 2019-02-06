@@ -1,0 +1,34 @@
+PENCO 			= {lat: -36.738938, lng: -72.993843};
+CONCEPCION		= {lat: -36.827323, lng: -73.050419};
+TALCAHUANO		= {lat: -36.714722, lng: -73.114022};
+HUALPEN			= {lat: -36.787837, lng: -73.087887};
+SAN PEDRO DE LA PAZ	= {lat: -36.841338, lng: -73.103682};
+CHIGUAYANTE		= {lat: -36.907388, lng: -73.029180};
+TOMÉ			= {lat: -36.617251, lng: -72.957547};
+SANTA JUANA		= {lat: -37.174980, lng: -72.937476};
+LOTA			= {lat: -37.094333, lng: -73.156148};
+HUALQUI			= {lat: -36.975483, lng: -72.938854};
+
+
+var destinationA = {lat: -36.738938, lng: -72.993843};//PENCO
+var destinationB = {lat: -36.827323, lng: -73.050419};//CONCEPCION
+var destinationC = {lat: -36.714722, lng: -73.114022};//TALCAHUANO
+var destinationD = {lat: -36.787837, lng: -73.087887};//HUALPEN
+var destinationE = {lat: -36.841338, lng: -73.103682};//SAN PEDRO DE LA PAZ
+var destinationF = {lat: -36.907388, lng: -73.029180};//CHIGUYANTE
+var destinationG = {lat: -36.617251, lng: -72.957547};//TOME
+var destinationH = {lat: -37.174980, lng: -72.937476};//SANTA JUANA
+var destinationI = {lat: -37.094333, lng: -73.156148};//LOTA
+var destinationJ = {lat: -36.975483, lng: -72.938854};//HUALQUI
+
+
+PENCO			0-9
+CONCEPCION		10-19
+TALCAHUANO		20-29
+HUALPEN			30-39
+SAN PEDRO DE LA PAZ	40-49
+CHIGUYANTE		50-59
+TOME			60-69
+SANTA JUANA		70-79
+LOTA			80-89
+HUALQUI			90-99

@@ -1,0 +1,27 @@
+En windows la manera de realizar Backup de bases de Datos de Postgres es a traves del "CMD" o simbolo de sistema
+(tambien llamada consola)
+Una vez abierto el CMD nos vamos a la carpeta donde se encuentra instalado Postgres
+
+Teclea la siguiente linea:
+(dependiendo de la version de postgres se coloca el 9.x en mi caso es la 9.6)
+
+cd C:\Archivos de programas\postgresql\9.6\bin
+
+una vez estando allí, utilizamos la siguiente linea de comando en el CMD
+(en la ruta donde se alojara el archivo de respaldo tiene que tener terminacion ".backup")
+
+pg_dump.exe -h localhost -p 5432 -U postgres -F c -v -d {nombre_de_tu_db} -f {ruta_donde_se_aloja_el_archivo.backup}
+
+
+___________________________________________________________________________________________________________________
+Para restaurar una base de datos primero se crea la base de datos que se desea restaurar dejandola vacia
+para posteriormente abrir una consola CMD en windows (o simbolo de sistema)
+
+ingresamos la siguiente linea de comando:
+(dependiendo de la version de postgres se coloca el 9.x en mi caso es la 9.6)
+
+cd C:\Archivos de programas\postgresql\9.6\bin
+
+una vez estando allí utilizamos la siguiente linea de comando:
+
+pg_restore.exe -i -h {servidor - comunmente localhost} -d {nombre_de_la_BD} -U {usuario-comunmente postgres} -v {directorio donde se encuentra rl archivo con extension .backup}
